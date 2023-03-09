@@ -42,7 +42,45 @@ class AppRoutes {
   getExampleByIdPageUrl(id:string):string{
     return this.getExampleByIdPagePath().replace(':id',id);
   }
-  // ./Example
+  // home page
+
+  getHomePagePath():string{
+    return `/home`;
+  }
+
+  getHomePageUrl():string{
+    return this.getHomePagePath();
+  }
+
+  // all orders page
+
+  getAllOrdersPagePath():string{
+    return `/all-orders`;
+  }
+
+  getAllOrdersPageUrl():string{
+    return this.getAllOrdersPagePath();
+  }
+
+  // communication orders page
+
+  getCommunicationOrdersPagePath():string{
+    return `/communication-orders`;
+  }
+
+  getCommunicationOrdersPageUrl():string{
+    return this.getCommunicationOrdersPagePath();
+  }
+
+  // return orders page
+
+  getReturnOrdersPagePath():string{
+    return `/return-orders`;
+  }
+
+  getReturnOrdersPageUrl():string{
+    return this.getReturnOrdersPagePath();
+  }
 }
 
 export const appRoutesObj = AppRoutes.getInstance();
