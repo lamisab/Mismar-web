@@ -24,7 +24,7 @@ function DropdownButton() {
             open && 
             <div className="  flex flex-col cursor-pointer  ">
               <ul className="  pt-5  bg-slate-200 cursor-pointer rounded-lg  ">
-              <li className="pr-3 hover:bg-red-700 "> تسجيل الخروج</li>
+              <li className="pr-3 hover:bg-mainColor "> تسجيل الخروج</li>
              
             </ul>
             </div>

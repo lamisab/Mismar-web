@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import NotificationButton from "../notification-button";
+import NotificationButton from "./notification-button";
 import DropdownButton from "./dropdown-button";
 import Sidebar from "./sidebar";
 

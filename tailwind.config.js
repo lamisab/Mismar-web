@@ -9,8 +9,9 @@ module.exports = {
         backgroundColor: "#F8F8F8",
         navBarColor:"#FFFFFF",
         sideBarColor:"#333333",
-        hoverColor:"#FF0000",
+        mainColor:"#FF0000",
       },
+      
     },
   },
   plugins: [],
