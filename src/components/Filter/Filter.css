@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.filter {
+  margin: 2%;
+  width: 96%;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  background-color: #fff;
+  border-radius: 5px;
+  height: 60px;
+}
+.searchCon {
+  margin-right: 30px;
+  border: 1px solid gray;
+  background-color: #fff;
+  border-radius: 5px;
+  display: inline;
+  align-items: center;
+}
+.searchCon input,
+.filter select {
+  border: none;
+  outline: none;
+  margin-right: 10px;
+  height: 30px;
+  width: 360px;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 5px;
+}
+.filter select {
+  width: 180px;
+  border: 1px solid gray;
+  color: gray;
+  margin-right: 3%;
+}
+/* .selectCon {
+  width: 240px;
+}
+.selectCon select {
+  width: 200px;
+} */
+input::placeholder {
+  font-size: 16px;
+  font-weight: 500;
+}

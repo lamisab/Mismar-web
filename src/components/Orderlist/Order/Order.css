@@ -1,0 +1,43 @@
+.order {
+  margin: 5px 0;
+  padding: 10px;
+  width: 40%;
+  background-color: #f8f8f8;
+}
+.order p {
+  color: gray;
+  margin-right: 5px;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.order h2,
+.order h3,
+.order div p {
+  color: red;
+  margin: 10px;
+  margin-right: 5px;
+}
+.order h3 {
+  margin: 20px 0;
+}
+.order h3 span {
+  background-color: #fad9b0;
+  color: #e49b48;
+  border-radius: 5px;
+  /* color: #eba24f; */
+  padding: 5px 20px;
+}
+.order div p {
+  font-size: 18px;
+  font-weight: 500;
+}
+.order div p span {
+  color: #000;
+}
+.order div {
+  display: flex;
+  justify-content: right;
+}
+.order h2 span {
+  color: #468cb8;
+}

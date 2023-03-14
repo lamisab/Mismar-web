@@ -2,7 +2,6 @@ import React from "react";
 import reportWebVitals from "./reportWebVitals";
 import { createRoot } from "react-dom/client";
 
-import "./App.css";
 import { AppRouting } from "./app-routes";
 import "./core/configs/i18n";
 

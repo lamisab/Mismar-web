@@ -1,0 +1,29 @@
+.navbar {
+  background-color: #fff;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+.navbar_nav {
+  display: flex;
+  padding: 10px;
+  background-color: #333;
+  border-radius: 3px;
+  color: #fff;
+}
+.navbar select {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  width: 180px;
+  border-radius: 3px;
+
+  direction: rtl;
+}
+.navbar_nav p {
+  margin-right: 20px;
+  padding: 0 5px;
+}

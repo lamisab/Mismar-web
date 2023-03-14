@@ -1,0 +1,59 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.orders {
+  background-color: #fff;
+  width: 96%;
+  margin: 1% 2%;
+  padding: 10px 20px;
+  border-radius: 3px;
+
+  height: max-content;
+}
+.orders h3 {
+  margin-right: 20px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.ordersCon {
+  margin: 1% auto;
+  padding: 2% 2% 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.orderstate {
+  display: flex;
+  justify-content: right;
+}
+.orderstate div {
+  display: flex;
+}
+.orderstate div p {
+  font-size: 20px;
+  font-weight: 800;
+  margin: 0 20px;
+}
+.orderstate div input {
+  margin: 0 10px;
+}
+input[type="radio"] {
+  accent-color: red;
+}
+.pagesCon {
+  display: flex;
+  justify-content: left;
+}
+.pagesCon div {
+  border-radius: 50px;
+  border: 1px solid gray;
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  text-align: center;
+  cursor: pointer;
+  margin: 0 3px;
+}
